@@ -1,0 +1,78 @@
+@charset "utf-8"
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.white{
+  float:left;
+  margin-left: 4px;
+  height: 400px;
+  width: 50px;
+  box-shadow: inset 0px 0px 30px 20px white;
+  cursor: pointer;
+}
+.black ,.black1,.black2,.black3, .black4 ,.black5 ,.black6 ,.black7 ,.black8 ,.black9 ,.black10{
+  position: absolute;
+  height: 300px;
+  width: 30px;
+  z-index: 99;
+  margin-top: 0px;
+  margin-left: -60;
+  border: 1px solid black;
+  box-shadow: inset 0px 0px 10px 5px rgb(41, 35, 35);
+  background: linear-gradient(to bottom, gray 100%,black 0%);
+  cursor: pointer;
+}
+.black {
+  margin-left: -66px;
+  
+}
+.black:active {
+  background: linear-gradient(to bottom, gray 0%,black 100% );
+
+}
+.black1 {
+  margin-left: -119px;
+  
+}
+.black1:active {
+  background: linear-gradient(to bottom, gray 0%,black 100% );
+
+}
+.black2 {
+  margin-left: -227px;
+}
+.black2:active {
+  background: linear-gradient(to bottom, gray 0%,black 100% );
+
+}
+
+
+.black4 {
+  margin-left: -280px;
+}
+.black4:active {
+  background: linear-gradient(to bottom, gray 0%,black 100% );
+}
+.black5 {
+  margin-left: -337px;
+}
+.black5:active {
+  background: linear-gradient(to bottom, gray 0%,black 100% );
+}
+.black7{
+  margin-left: -440px;
+}
+.black7:active {
+  background: linear-gradient(to bottom, gray 0%,black 100% );
+}
+
+.black8 {
+  margin-left: -499px;
+}
+.black8:active {
+  background: linear-gradient(to bottom, gray 0%,black 100% );
+}
+
+
